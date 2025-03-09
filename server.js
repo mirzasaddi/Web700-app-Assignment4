@@ -102,3 +102,5 @@ app.listen(HTTP_PORT,()=>{
     console.log("server listening on port: "+HTTP_PORT);
     collegeData.initialize();
 });
+
+module.exports = app;
